@@ -1,0 +1,3 @@
+# ActionScript 3 ArrayIndexOutOfBounds Error
+
+This repository demonstrates a common ActionScript 3 error related to accessing array elements out of bounds. The error occurs when attempting to access an array element using its length as the index. In ActionScript (and many other languages), arrays are zero-indexed, meaning the first element is at index 0, the second at index 1, and so on. The length property, however, represents the total number of elements, which is one greater than the highest valid index.
